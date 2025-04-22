@@ -13,24 +13,29 @@ It is an AI-powered poetry companion that helps poets and writers craft beautifu
 
 ## 🚀 Tech Stack
 
-- **Frontend**: Streamlit (or React.js for advanced UI)
-- **Backend**: Python (Flask/Streamlit)
-- **ML/NLP Libraries**: 
-  - Hugging Face Transformers (GPT-2/GPT-Neo)
-  - BERT/RoBERTa for emotion analysis
-  - `pronouncing`, `nltk`, `textblob` for rhyme and rhythm
-- **Deployment**: Streamlit Cloud / Hugging Face Spaces / Render
-- **Version Control**: Git + GitHub
+
+
 
 ## 📁 Folder Structure
 
 ```
-Nazm_AI/
-├── app/                  # Streamlit or Flask app
-├── models/               # Pretrained or fine-tuned models
-├── utils/                # Text processing, rhyme, emotion modules
-├── data/                 # Poetry dataset or corpus
-└── README.md
+nazmai_project/
+│
+├── nazmapp/                  # Core app
+│   ├── views.py              # API endpoints (for poetry completion, emotion, etc.)
+│   ├── urls.py
+│   ├── models.py             # Optional (for storing user poems)
+│   └── templates/            # HTML pages (if using Django templating)
+│
+├── ai_models/                # Custom ML model loading & inference utils
+│   └── poem_completion.py
+│   └── emotion_detect.py
+│   └── rhyme_suggestor.py
+│
+├── static/                   # CSS, JS, etc.
+├── templates/
+├── manage.py
+└── requirements.txt
 ```
 
 ## 📚 Dataset Sources
