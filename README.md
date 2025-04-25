@@ -55,9 +55,6 @@ nazmai_project/
 
 Contributions are welcome! Whether it's model improvements, new features, or UI polish, feel free to open an issue or PR.
 
-## 📜 License
-
-MIT License
 
 ## ❤️ Inspired By
 
