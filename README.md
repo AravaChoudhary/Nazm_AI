@@ -55,7 +55,6 @@ nazmai_project/
 
 Contributions are welcome! Whether it's model improvements, new features, or UI polish, feel free to open an issue or PR.
 
-
 ## ❤️ Inspired By
 
 Shayari, silence, and the timeless beauty of heartfelt words.
