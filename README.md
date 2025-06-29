@@ -43,6 +43,7 @@ nazmai_project/
 - [Poetry Foundation](https://www.poetryfoundation.org/)
 - Urdu/Hindi poetry from Kaggle or custom scraping
 - Literary classics (Ghalib, Rumi, Shakespeare, etc.)
+- Rekhta (Poetry App)
 
 ## 💡 Future Ideas
 
